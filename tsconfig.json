@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "CommonJS",
+    "noImplicitReturns": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "importsNotUsedAsValues": "remove",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*",
+    "node_modules/@types/node/globals.d.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
