@@ -1,7 +1,7 @@
 {
   "name": "rate-limiter",
   "version": "1.0.0",
-  "description": "Rate Limiter to prevent multiple req",
+  "description": "A lightweight, zero-dependency Express rate limiting middleware written in TypeScript.",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch --clear-screen=true src/index.ts"
